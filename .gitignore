@@ -146,7 +146,6 @@ Temporary Items
 *.pch
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
 *.dll
 
@@ -189,12 +188,8 @@ $RECYCLE.BIN/
 *.lnk
 ### C template
 # Prerequisites
-*.d
-
 # Object files
-*.o
 *.ko
-*.obj
 *.elf
 
 # Linker output
@@ -203,25 +198,10 @@ $RECYCLE.BIN/
 *.exp
 
 # Precompiled Headers
-*.gch
-*.pch
-
 # Libraries
-*.lib
-*.a
-*.la
-*.lo
-
 # Shared objects (inc. Windows DLLs)
-*.dll
-*.so
 *.so.*
-*.dylib
-
 # Executables
-*.exe
-*.out
-*.app
 *.i*86
 *.x86_64
 *.hex
@@ -319,7 +299,6 @@ CTestTestfile.cmake
 ### VirtualEnv template
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-.Python
 [Bb]in
 [Ii]nclude
 [Ll]ib
@@ -327,6 +306,5 @@ CTestTestfile.cmake
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.venv
 pip-selfcheck.json
 
